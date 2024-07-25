@@ -207,7 +207,26 @@
 ---
 
 #### এখন ধরলাম আপনি একটা প্রোজেক্টে কন্ট্রিবিউট করতে চাচ্ছেন। বা এখানে আপনি আমার ডেমো প্রোজেক্টে কন্ট্রিবিউট করতে চাচ্ছেন। তো সেক্ষেত্রে প্রথমে আমার গিটহাবের প্রোজেক্টে গিয়ে সেটা *fork* করতে হবে। এই *fork* বাটন গিটহাবের কাঙ্ক্ষিত প্রোজেক্টের পেজে একদম উপরে ডান কোণায় পাবেন।
+---
+test github repo  git command
+==============================
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/hafizurrahmanomar/test.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
 
+…or create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hafizurrahmanomar/test.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/hafizurrahmanomar/test.git
+git branch -M main
+git push -u origin main
 
 ---
 Git Commands
